@@ -27,7 +27,7 @@ function loadVideo(i) {
 function togglePlay() {
   if (player.paused) {
     player.play();
-    crowd.play(); // 🔊 start ambient sound
+    // crowd.play(); // 🔊 start ambient sound
   } else {
     player.pause();
   }
